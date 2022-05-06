@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.loginweb.appxi.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/new_viaje"
+        android:name="com.loginweb.appxi.ui.newviaje.NewViajeFragment"
+        android:label="Nuevo Viaje"
+        tools:layout="@layout/new_viaje_fragment" />
+
+    <fragment
+        android:id="@+id/perfil"
+        android:name="com.loginweb.appxi.ui.perfil.PerfilFragment"
+        android:label="Perfil"
+        tools:layout="@layout/perfil_fragment" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.loginweb.appxi.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.loginweb.appxi.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/chofer_perfil"
+        android:name="com.loginweb.appxi.ui.choferperfil.ChoferPerfilFragment"
+        android:label="Perfil Chofer"
+        tools:layout="@layout/chofer_perfil_fragment" />
+
+    <fragment
+        android:id="@+id/chofer_historial"
+        android:name="com.loginweb.appxi.ui.choferhistorial.ChoferHistorialFragment"
+        android:label="Historial Chofer"
+        tools:layout="@layout/chofer_historial_fragment" />
+
+    <fragment
+        android:id="@+id/soporte"
+        android:name="com.loginweb.appxi.ui.soporte.SoporteFragment"
+        android:label="Soporte"
+        tools:layout="@layout/soporte_fragment" />
+
+    <fragment
+        android:id="@+id/historial"
+        android:name="com.loginweb.appxi.ui.historial.HistorialFragment"
+        android:label="Historial"
+        tools:layout="@layout/historial_fragment" />
+</navigation>
